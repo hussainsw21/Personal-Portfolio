@@ -7,4 +7,4 @@
 - Contact: Contact Form with JS validation
 
 ## Instructions
-Open `index.html` in any browser. Hosted version: [your link if hosted]
+Open `index.html` in any browser. Hosted version: https://hsw-portfolio.netlify.app
