@@ -26,12 +26,27 @@
       <p><strong>Email:</strong> hussainshajapurwala65@gmail.com</p>
       <p><strong>Phone:</strong> +91 9329590664</p>
 
-      <form>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" rows="5" required></textarea>
+      <form action="https://formsubmit.co/hussainshajapurwala65@gmail.com" method="POST">
+        <!-- Full name -->
+        <input type="text" name="name" placeholder="Your Name" required />
+      
+        <!-- Email -->
+        <input type="email" name="email" placeholder="Your Email" required />
+      
+        <!-- Subject -->
+        <input type="text" name="subject" placeholder="Subject" required />
+      
+        <!-- Message -->
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      
+        <!-- Hidden options -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="thankyou.html">
+      
+        <!-- Submit -->
         <button type="submit">Send Message</button>
       </form>
+
     </section>
   </main>
 
